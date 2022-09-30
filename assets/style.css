@@ -45,6 +45,10 @@
     color: var(--background)
 }
 
+.navBar a:visited {
+    color: var(--info);
+}
+
 .headerPhoto {
     width: 100%;
     height: 170px;
@@ -68,30 +72,149 @@
     background-color: var(--background);
 }
 
-.aboutMe {
-    display: flex;
-    float: right;
-    margin-right: 20px;
-    margin-left: 75px;
-    margin-top: 0px;
-
+.about{
+    margin-top: 3%;
+    min-height: 2vh;
 }
 
-.bioTitle {
+.aboutMe {
     display: flex;
-    font-size: 30px;
+    position: absolute;
+    font-size: 40px;
+    width: 10%;
     text-align: right;
-    margin-top: 30px;
-    margin-bottom: 20px;
-    box-shadow: 5px 0px 0px 0px black;
-    padding-right: 10px;
-    
-    
+    margin-left: 10%;
+    margin-top: 0%;
 }
 
 section p {
     display: flex;
-    margin-left: 30px;
+    position: absolute;
+    left: 25%;
+    right: 5%;
 }
 
+.vl {
+    border-left: 6px solid black;
+    height: 100px;
+    position: absolute;
+    left: 22%;
+    margin-top: 10px;
+}
+
+.workTitle {
+   display: flex;
+   margin-top: 20%;
+   margin-left: 12.3%;
+   position: absolute;
+   font-size: 45px;
+} 
+
+
+.vl2 {
+    border-left: 6px solid black;
+    height: 687px;
+    position: absolute;
+    left: 22%;
+    margin-top: 20%;
+} 
+
+.card {
+    flex-wrap: wrap;
+    height: 150px;
+    width: 483px;
+    margin: 10px;
+    border: solid 5px var(--background)
+}
+
+.cards {
+    flex-wrap: wrap;
+    position: absolute;
+    margin-left: 25%;
+    margin-top: 20%;
+}
+
+#card1 {
+    flex-wrap: wrap;
+    height: 300px;
+    width: 1000px;
+}
+
+.contact {
+    display: flex;
+    position: absolute;
+    font-size: 50px;
+    margin-left: 7%;
+    margin-top: 72%;
+    text-align: right;
+    width: 10%;
+}
+
+.vl3 {
+    border-left: 6px solid black;
+    height: 140px;
+    position: absolute;
+    left: 22%;
+    margin-top: 72%;
+}
+
+.socials {
+    position: absolute;
+    margin-top: 75%;
+    font-size: 20px;
+    left: 20%;
+}
+
+.links {
+    display: inline;
+    margin: 30px;
+    border-bottom: 3px solid black;
+    
+}
+
+.cardText {
+    position: absolute;
+    background-color: var(--background);
+    margin-top: -70px;
+    margin-left: 15px;
+    padding: 5px;
+}
+
+.card3text {
+    position: absolute;
+    background-color: var(--background);
+    margin-top: -70px;
+    margin-left: 49.5%;
+    padding: 5px;
+}
+
+
+
+@media only screen and (max-width: 1138px) {
+    #card1 {
+        height: 150px;
+        width: 484px;
+    }
+
+    .about {
+        min-height: 50vh;
+    }
+
+    .aboutMe {
+        font-size: 1.6rem;
+        margin-left: 20px;
+    }
+
+    .workTitle {
+        font-size: 1.6rem;
+        margin-left: 20px;
+    }
+
+    .contact {
+        font-size: 1.6rem;
+        margin-left: 20px;
+    }
+
+
+}
 
